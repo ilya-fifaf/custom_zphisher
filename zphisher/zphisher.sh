@@ -1,11 +1,8 @@
 #!/bin/bash
-
 ##   Zphisher 	: 	Automated Phishing Tool
 ##   Author 	: 	TAHMID RAYAT 
 ##   Version 	: 	2.3.5
 ##   Github 	: 	https://github.com/htr-tech/zphisher
-
-
 ##                   GNU GENERAL PUBLIC LICENSE
 ##                    Version 3, 29 June 2007
 ##
@@ -78,7 +75,6 @@
 ##
 ##      Copyright (C) 2022  HTR-TECH (https://github.com/htr-tech)
 ##
-
 ##   THANKS TO :
 ##   1RaY-1 - https://github.com/1RaY-1
 ##   Aditya Shakya - https://github.com/adi1090x
@@ -88,14 +84,10 @@
 ##   Mr.Derek - https://github.com/E343IO
 ##   Mustakim Ahmed - https://github.com/bdhackers009
 ##   TheLinuxChoice - https://twitter.com/linux_choice
-
-
 __version__="2.3.5"
-
 ## DEFAULT HOST & PORT
 HOST='127.0.0.1'
 PORT='8080' 
-
 ## ANSI colors (FG & BG)
 RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
 MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\033[37m')" BLACK="$(printf '\033[30m')"
