@@ -119,6 +119,7 @@ fi
 if [[ -e ".server/.cld.log" ]]; then
 	rm -rf ".server/.cld.log"
 fi
+
 ## Reset terminal colors
 reset_color() {
 	tput sgr0   # reset attributes
