@@ -96,7 +96,6 @@ MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(prin
 RESETBG="$(printf '\e[0m\n')"
 ## Directories
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
-
 if [[ ! -d ".server" ]]; then
 	mkdir -p ".server"
 fi
@@ -123,7 +122,7 @@ fi
 
 ## Script termination
 exit_on_signal_SIGINT() {
-	printf "\n\n%s\n\n" "${RED}[${WHITE}!${RED}]${RED} Program Interrupted." 2>&1; reset_color; }
+	printf "\n\n%s\n\n" "${RED}[${WHITE}!${RED}]${RED} Program Interrupted." 2>&1; reset_color;
 	exit 0
 }
 
